@@ -1,0 +1,56 @@
+.joinRoom{
+    background: url('https://resources.pulse.icc-cricket.com/ICC/photo/2020/03/18/3d4786a7-5b88-4475-8a18-6a4d657dc916/GettyImages-1207390042.jpg');
+padding: 20px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding-bottom: 120px;
+}
+
+.joinRoomBox{
+    width: 40vw;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 8px;
+}
+.joinRoomInput{
+    margin: 12px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.joinRoomInput:hover{
+    border-color: rgb(4, 255, 150);
+}
+.joinRoomButton{
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(26, 182, 47);
+}
+.joinRoomButton:hover{
+    background-color: rgb(32, 210, 241);
+}
+.joinRoomBackButton{
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    font-size:small;
+}
+.joinRoomBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+@media(max-width:550px){
+    .joinRoomBox{
+        width: 65vw;
+    }
+}
+
+@media(max-width:300px){
+    .joinRoomInput{
+        width: 50vw;
+    }
+}

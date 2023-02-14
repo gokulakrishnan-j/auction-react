@@ -1,0 +1,151 @@
+.waitRoom{
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 12px;
+    width: 50vw;
+    margin: auto;
+    border-radius: 12px;
+}
+.waitRoomSelectedPlayers{
+    height: 200px;
+    overflow: auto;
+}
+.waitRoomSelectIcon{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50px ;
+    cursor:pointer;
+    margin: 12px;
+}
+.waitRoomSelectIcon:hover{
+    background-color: rgb(169, 236, 93);
+}
+.listOfPlayers{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(237, 240, 243);
+    margin: 8px;
+    padding: 9px;
+    border-radius: 8px;
+}
+.listOfPlayers:hover{
+    background-color: rgb(163, 56, 24);
+    color: aliceblue;
+}
+
+.playerListHeadingDetails{
+font-weight: bold;
+}
+.waithRoomStartButton{
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(26, 182, 47);
+    margin: 12px;
+}
+.waithRoomStartButton:hover{
+    background-color: rgb(32, 210, 241);
+}
+.totalAmountAndPlayerDetails{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51, 49, 49);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    color: #ffffff;
+}
+.betAmount{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    margin: auto;
+    padding: 12px;
+    margin-bottom: 8px;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bettingArea{
+    color: #ffffff;
+    background-color: rgb(128, 16, 16);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 12px;
+}
+.bettingInput{
+    padding: 8px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-color:white ;
+    margin-bottom: 12px;
+}
+.bettingInput:hover{
+border: 1px solid rgb(21, 255, 235);
+
+}
+.bettingButton{
+    padding: 8px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-color: #c9cc24;
+    background-color: #c9cc24;
+}
+.bettingButton:hover{
+    background-color: #32cc24;
+    border-color: #32cc24;
+}
+.sellButton{
+    background-color: #eeaa2c;
+    width: fit-content;
+    margin: auto;
+    padding: 12px;
+    cursor:pointer;
+    border-radius: 12px;
+}
+.sellButton:hover{
+    background-color: #78d422;
+    color: #000;
+}
+.commend{
+    height: 180px;
+    overflow: auto;
+    background-color: #0000003a;
+}
+.commendDetails{
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    color: #000;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.hoverAdmin{
+    margin: 0px;
+    height: 0px;
+}
+.waithRoomBackButton{
+
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    font-size:small;
+
+}
+
+.waithRoomBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+@media(max-width:450px){
+    .waitRoom{
+        width: 80vw;
+    }
+}
+@media(max-width:300px){
+    .bettingInput{
+        width: 50vw;
+    }
+}

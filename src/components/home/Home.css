@@ -1,0 +1,52 @@
+.home{
+    background: url('https://themeghalayan.com/wp-content/uploads/2022/10/1622061272_cricket-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 12px;
+}
+
+.homeBox{
+    height: 50vh;
+    background-color: rgba(8, 8, 8, 0.459);
+    padding: 20px;
+    width: 50vw;
+    margin: auto;
+    border-radius: 8px;
+}
+.homeRoom{
+    background-color: rgb(234, 239, 243);
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: large;
+    border-radius: 12px;
+    cursor:pointer
+}
+.homeBackButton{
+    padding: 8px;
+ border-radius: 12px;
+ border-style: none;
+ font-size:small;
+}
+.homeBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+@media(max-width:500px){
+    .homeRoom{
+        width: 120px;
+        padding: 12px;
+    }
+}
+
+@media(max-width:400px){
+    .homeRoom{
+        width: 100px;
+        font-size: medium;
+        
+    }
+    .homeBox{
+        width: 70vw;
+    }
+}

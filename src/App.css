@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  
+}
+body{
+background:rgba(209, 156, 40, 0.918)
+
+}
+.playerAuction{
+  font-family: 'IBM Plex Serif';
+  letter-spacing: 4px;
+  background-color: #b33718;
+  margin: 0;
+  padding: 20px;
+  border-radius: 12px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.svg{
+  width: 20px;
+  margin: 8px;
+}
+.logout{
+  background-color: #b33718;
+  margin-top: 0%;
+  padding: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.logoutButton{
+  color: #ddd0d0;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}.logoutButton:hover{
+  color: #c1c41d;
+}
+.headers{
+  position: sticky;
+  top: 8px;
+}
+@media(max-width:380px){
+  .playerAuction{
+      font-size: 20px;
+  }
+}

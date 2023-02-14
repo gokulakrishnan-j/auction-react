@@ -1,0 +1,108 @@
+
+.createRoom{
+    background: url('https://i.pinimg.com/originals/37/cd/5f/37cd5fdd520ba316e39c6860db362a71.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    padding-bottom: 120px;
+}
+.createRoomBox{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+.createRoomInput{
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+.createRoomInput:hover{
+    border-color: rgb(4, 255, 150);
+}
+.roomId{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 20vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+
+}
+.copy{
+    border: 2px solid rgba(255, 255, 255, 0.418);
+    padding: 5px;
+    cursor:pointer;
+    border-radius: 6px;
+}
+.roomIdName{
+    font-size: x-large;
+}
+.createRoomButton{
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(26, 182, 47);
+}
+.createRoomButton:hover{
+    background-color: rgb(32, 210, 241);
+}
+.createRoomBackButton{
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    font-size:small;
+}
+.createRoomBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+@media(max-width:660px){
+    .roomIdName{
+        font-size: large;
+        margin-right: 0%;
+    }
+    .copy{
+        padding: 3px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .roomId{
+        width: 30vw;
+        padding-left: 8px;
+    
+    }
+}
+
+@media(max-width:350px){
+    .roomIdName{
+        font-size: medium;
+    }
+    .copy{
+       
+    }
+    .roomId{
+        width: 50vw;
+        padding-left: 8px;
+    
+    }
+    .createRoomBox{
+        width: 60vw;
+    }
+    .createRoomInput{
+        width: 60vw;
+    }
+    .createRoom{
+        padding: 0%;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+}

@@ -1,0 +1,52 @@
+.selectPlayersInput{
+        padding: 8px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+}
+.selectPlayersInput:hover{
+    border-color: rgb(4, 255, 150);
+}
+.selectPlayersRadioButtonBox{
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(62, 231, 57);
+    border-radius: 12px;
+}
+.selectPlayerSelectButton{
+    margin-top: 12px;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(42, 225, 238);
+}
+.selectPlayerSelectButton:hover{
+    background-color: rgb(185, 241, 32);
+}
+
+.selectPlayersBackButton{
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    font-size:small;
+}
+.selectPlayersBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+@media(max-width:600px){
+    .selectPlayersRadioButtonBox{
+        width: 70%;
+    }
+}
+
+@media(max-width:300px){
+    .selectPlayersRadioButtonBox{
+        width: 80%;
+    }
+    .selectPlayersInput{
+        width: 70vw;
+    }
+}

@@ -1,0 +1,51 @@
+.players{
+    background: url('https://resources.pulse.icc-cricket.com/ICC/photo/2020/05/18/11b01d77-cc01-48f7-ae48-cc6a60bd4369/GettyImages-692456548-1-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.playerBox{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 50vw;
+    margin: auto;
+    padding: 12px;
+    height: 70vh;
+    border-radius: 12px;
+    overflow: auto;
+}
+.playerDetails{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 235, 235);
+    border-radius: 12px;
+    margin: 12px;
+}
+.playerDetails:hover{
+  background-color: brown;
+  color: aliceblue;
+}
+.playerBackButton{
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    font-size:small;
+    margin-bottom: 12px;
+}
+
+.playerBackButton:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+@media(max-width:500px){
+    .playerBox{
+        width: 80vw;
+    }
+}
+@media(max-width:380px){
+    .playerBox{
+        width: 70vw;
+    }
+}

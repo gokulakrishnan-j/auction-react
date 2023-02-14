@@ -1,0 +1,63 @@
+.signin{
+    background: url('https://themeghalayan.com/wp-content/uploads/2022/10/1622061272_cricket-1.jpg');
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 5%;
+margin-bottom: 100px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.loginBox{
+    width: 30vw;
+    margin: auto;
+    box-shadow: rgba(255, 255, 255, 0.5) 1px 1px 2px 2px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+.inputForLogin{
+    padding: 8px;
+    margin: 5px;
+    width: 90%;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+.inputForLogin:hover{
+    border-color: rgb(4, 255, 150);
+}
+.loginButton{
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid beige;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.loginButton:hover{
+    background-color: rgb(12, 177, 53);
+}
+.Don_not_have_an_account{
+    color: #ffffff;
+    font-size: 18px;
+}
+.register:hover{
+    color: #20fcf1;
+    cursor:pointer
+    }
+
+    @media(max-width:680px){
+        .loginBox{
+            width: 50vw;
+        }
+    }
+    
+    @media(max-width:380px){
+        .loginBox{
+            width: 70vw;
+        }
+        .signin{
+            background-position: center;
+        }
+    }
