@@ -38,7 +38,6 @@ function Signin() {
             method:"POST",
             body:JSON.stringify(values),
             headers:{'Content-Type':'application/json'},
-            mode:"cors"
            })
            //if login sucessfully navigating to product component or if login is unsucessfull alert box will be pop
            .then((login)=>login.ok ? navigate(`/auction/home/${values.email}`) : alert("wrong username or password"))
