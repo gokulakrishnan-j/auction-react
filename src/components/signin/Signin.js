@@ -33,7 +33,7 @@ function Signin() {
 
         onSubmit:(values)=>{
             
-
+console.log(values)
            fetch(`${API}/auction/login`,{
             method:"POST",
             body:JSON.stringify(values),
