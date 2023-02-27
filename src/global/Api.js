@@ -1,1 +1,1 @@
-export const API = 'https://auction-wds6.onrender.com'
+export const API = 'https://auction-oozf.onrender.com'
