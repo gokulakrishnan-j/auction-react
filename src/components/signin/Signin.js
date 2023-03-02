@@ -40,8 +40,8 @@ function Signin() {
             headers:{'Content-Type':'application/json'},
            })
            //if login sucessfully navigating to product component or if login is unsucessfull alert box will be pop
-         //  .then((login)=>login.ok ? navigate(`/auction/home/${values.email}`) : alert("wrong username or password"))
-            .then(()=>navigate(`/auction/home/${values.email}`))
+           .then((login)=>login.ok ? navigate(`/auction/home/${values.email}`) : alert("wrong username or password"))
+            
 
        
         }
