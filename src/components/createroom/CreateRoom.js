@@ -27,7 +27,6 @@ setShowRoom(true)
         headers:{'my_token':localStorage.getItem("token"),}
       })
       .then((data)=>data.json())
-      .then((val)=>console.log(val))
       .then((value)=>setRoom(value))
     },[])
 
